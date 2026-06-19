@@ -1,0 +1,86 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#efefef;
+font-family:Georgia, serif;
+position:relative;
+}
+
+.top-area{
+height:90px;
+background:#573a3a;
+}
+
+.home-btn{
+position:absolute;
+top:3px;
+right:6px;
+font-size:10px;
+background:white;
+border:none;
+padding:2px 6px;
+}
+
+.coffee-card{
+margin:0 14px;
+margin-top:-2px;
+background:#7a6262;
+border-radius:0 0 18px 18px;
+padding:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.left-content h1{
+color:white;
+font-size:22px;
+}
+
+.left-content p{
+color:white;
+font-size:12px;
+letter-spacing:2px;
+}
+
+.icons{
+display:flex;
+gap:30px;
+}
+
+.icon-box{
+width:40px;
+height:30px;
+background:white;
+border:1px solid #ccc;
+}
+
+.right-content h3{
+color:white;
+font-size:10px;
+letter-spacing:2px;
+margin-top:8px;
+}
+
+.size-section{
+margin-top:90px;
+display:flex;
+justify-content:space-around;
+}
+
+.size-section button{
+border:none;
+background:transparent;
+font-size:30px;
+color:#3f3f3f;
+}
+
+.active{
+border:1px solid #b9ddff !important;
+padding:14px 18px;
+}
